@@ -1,0 +1,27 @@
+.hero {
+  background-color: tomato;
+}
+
+.hero p:nth-child(1) {
+  background-image: url(../img/vite-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.hero p:nth-child(2) {
+  background-image: url(./img/vite-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
+.hero p:nth-child(3) {
+  background-image: url(/img/vite-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
